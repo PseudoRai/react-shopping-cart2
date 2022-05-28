@@ -1,0 +1,36 @@
+{
+    "products":[
+        {
+            "_id":"1",
+            "title":"A history of the Vikings CHILDREN OF ASH AND ELM", 
+            "image": "/images/1.jpg",
+            "description":"about Book 1",
+            "price": 11,
+            "availableSizes":["Hardcover","ALL"]
+        },
+        {
+            "_id":"2",
+            "title":"The Sword and the Shield", 
+            "image": "/images/2.jpg",
+            "description":"about Book 2",
+            "price": 22,
+            "availableSizes":["Digital", "Hardcover", "ALL"]
+        },
+        {
+            "_id":"3",
+            "title":"MORALITY", 
+            "image": "/images/3.jpg",
+            "description":"about Book 3",
+            "price": 33,
+            "availableSizes":["Digital", "Hardcover","ALL"]
+        },
+        {
+            "_id":"4",
+            "title":"VANGUARD", 
+            "image": "/images/4.jpg",
+            "description":"about Book 4",
+            "price": 44,
+            "availableSizes":["Digital", "ALL"]
+        }    
+    ]
+}

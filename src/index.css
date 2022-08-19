@@ -14,7 +14,7 @@ input,
 select,
 button,
 textarea {
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
 
@@ -31,7 +31,6 @@ textarea {
 a {
   text-decoration: none;
 }
-
 a:hover {
   color: #ff8000;
 }
@@ -131,7 +130,7 @@ footer {
 .filter div {
   flex: 1;
 }
-/* index.css */
+/* Index.css */
 .cart {
   padding: 1rem;
   margin: 1rem;
@@ -212,4 +211,29 @@ input {
   right: 1rem;
   top: 2.5rem;
   z-index: 1000;
+}
+
+/* Order Details */
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.order-details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-details li div {
+  padding: 10px;
+}
+.order-details .items {
+  text-align: right;
+  padding: 0;
+}
+.success-message {
+  color: green;
 }
